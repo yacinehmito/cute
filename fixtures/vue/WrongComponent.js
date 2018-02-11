@@ -1,8 +1,8 @@
-import Vue from "vue";
+import Vue from 'vue';
 
-Vue.component("foo", {
+Vue.component('foo', {
   computed: {
     // The computed property should return a value
-    foo() {}
-  }
+    foo() {},
+  },
 });
