@@ -1,5 +1,5 @@
 const path = require('path');
-const {CLIEngine} = require('eslint');
+const { CLIEngine } = require('eslint');
 
 function createCLIEngineForFixture(fixtureName, config) {
   const fixturePath = path.resolve(__dirname, '../fixtures', fixtureName);
