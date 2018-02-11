@@ -16,11 +16,8 @@ module.exports = {
       files: ['**/*.vue'],
       rules: {
         'prettier/prettier': [
-          'error',
-          {
-            ...prettierSettings,
-            parser: 'vue',
-          },
+          'warn',
+          Object.assign({ parser: 'vue' }, prettierSettings),
         ],
       },
     },
