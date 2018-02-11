@@ -1,0 +1,24 @@
+{
+  "name": "eslint-plugin-cute",
+  "version": "0.1.0",
+  "description": "The inner workings of cute, an opinionated ESLint config that works well with prettier, jest and vue.",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yacinehmito/cute.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "jest",
+    "vue",
+    "prettier",
+    "cute"
+  ],
+  "author": "Yacine Hmito <yacine.hmito@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yacinehmito/cute/issues"
+  },
+  "homepage": "https://github.com/yacinehmito/cute#readme",
+  "main": "index.js"
+}

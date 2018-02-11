@@ -1,0 +1,13 @@
+{
+  "name": "cute-fixture-vue",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-cute": "=0.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "cute"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "workspaces": [
+    "fixtures/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint . --ignore-pattern fixtures",
+    "prettier": "eslint --fix . --ignore-pattern fixtures",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "eslint": "^4.14.0",
+    "jest": "^22.0.4",
+    "prettier": "^1.9.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/fixtures/",
+      "_[^/]*\\.js"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "cute",
+    "env": {
+      "node": true
+    }
+  }
+}

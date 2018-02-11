@@ -1,0 +1,31 @@
+{
+  "name": "cute-cli",
+  "version": "0.1.0",
+  "description": "An opinionated linter based on ESLint that works well with prettier, jest and vue",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yacinehmito/cute.git"
+  },
+  "keywords": [
+    "eslint",
+    "jest",
+    "vue",
+    "prettier",
+    "cute"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yacinehmito/cute/issues"
+  },
+  "homepage": "https://github.com/yacinehmito/cute#readme",
+  "main": "./bin/cute",
+  "bin": {
+    "cute": "./bin/cute"
+  },
+  "dependencies": {
+    "eslint-config-cute": "=0.1.0",
+    "eslint": "^4.14.0",
+    "prettier": "^1.9.2"
+  }
+}

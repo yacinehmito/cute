@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-cute",
+  "version": "0.1.0",
+  "description": "An opinionated ESLint config that works well with prettier, jest and vue",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yacinehmito/cute.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "jest",
+    "vue",
+    "prettier",
+    "cute"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yacinehmito/cute/issues"
+  },
+  "homepage": "https://github.com/yacinehmito/cute#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "eslint-plugin-cute": "=0.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-jest": "^21.5.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-vue": "^4.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.14.0",
+    "prettier": "^1.9.2"
+  }
+}
