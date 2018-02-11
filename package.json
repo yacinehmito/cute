@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint . --ignore-pattern fixtures",
-    "prettier": "eslint --fix . --ignore-pattern fixtures",
+    "lint": "eslint . --ext js,json,jsx,vue --ignore-pattern fixtures",
+    "prettier": "eslint --fix . --ext js,json,jsx,vue --ignore-pattern fixtures",
     "test": "jest"
   },
   "devDependencies": {
