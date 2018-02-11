@@ -1,3 +1,5 @@
+const prettierSettings = require('./prettierSettings');
+
 module.exports = {
   extends: 'plugin:vue/recommended',
   parser: require.resolve('vue-eslint-parser'),
@@ -16,6 +18,7 @@ module.exports = {
         'prettier/prettier': [
           'error',
           {
+            ...prettierSettings,
             parser: 'vue',
           },
         ],

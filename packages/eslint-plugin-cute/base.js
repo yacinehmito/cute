@@ -1,3 +1,5 @@
+const prettierSettings = require('./prettierSettings');
+
 module.exports = {
   extends: ['eslint:recommended', 'prettier'],
   plugins: ['json', 'prettier'],
@@ -8,15 +10,6 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        trailingComma: 'all',
-        bracketSpacing: false,
-        jsxBracketSameLine: true,
-        parser: 'flow',
-      },
-    ],
+    'prettier/prettier': ['warning', prettierSettings],
   },
 };
