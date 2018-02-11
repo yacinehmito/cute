@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['eslint:recommended', 'prettier'],
-  plugins: ['prettier'],
+  plugins: ['json', 'prettier'],
   parserOptions: {
     ecmaVersion: '2017',
   },

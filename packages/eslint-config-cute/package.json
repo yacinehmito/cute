@@ -25,9 +25,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "eslint-plugin-cute": "=0.1.0",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-cute": "=0.1.0",
     "eslint-plugin-jest": "^21.5.0",
+    "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-prettier": "^2.4.0",
     "eslint-plugin-vue": "^4.0.1"
   },

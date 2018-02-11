@@ -8,7 +8,7 @@ function createCLIEngineForFixture(fixtureName, config) {
       {
         useEslintrc: true,
         cwd: fixturePath,
-        extensions: ['.js', '.jsx', '.vue'],
+        extensions: ['.js', '.json', '.jsx', '.vue'],
       },
       config,
     ),
