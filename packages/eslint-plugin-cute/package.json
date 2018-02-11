@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-cute",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The inner workings of cute, an opinionated ESLint config that works well with prettier, jest and vue.",
   "repository": {
     "type": "git",

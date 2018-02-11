@@ -1,6 +1,6 @@
 {
   "name": "cute-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An opinionated linter based on ESLint that works well with prettier, jest and vue",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "cute": "./bin/cute"
   },
   "dependencies": {
-    "eslint-config-cute": "=0.1.0",
+    "eslint-config-cute": "=0.1.1",
     "eslint": "^4.14.0",
     "prettier": "^1.9.2"
   }
