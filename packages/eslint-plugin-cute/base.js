@@ -10,6 +10,6 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'prettier/prettier': ['warning', prettierSettings],
+    'prettier/prettier': ['warn', prettierSettings],
   },
 };
