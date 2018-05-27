@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "dependencies": {
     "eslint": "^4.14.0",
-    "eslint-config-cute": "=0.1.2"
+    "eslint-config-cute": "*"
   },
   "eslintConfig": {
     "root": true,
